@@ -1,0 +1,21 @@
+{
+    "name": "vue-app/plugin",
+    "description": "VUEJS App Plugin",
+    "authors": [
+        {
+            "name": "Ameed",
+            "email": "ameedkdev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VAPP\\Admin\\": "admin/",
+            "VAPP\\Frontend\\": "frontend/",
+            "VAPP\\Includes\\": "includes",
+            "VAPP\\Api\\": "api/"
+        }
+    },
+    "require-dev": {
+    }
+}
